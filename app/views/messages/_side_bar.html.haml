@@ -1,2 +1,22 @@
-.side-header
-.groups
+.chat-side
+  .side-header
+    .side-header__box
+      .side-header__box__name
+        東野裕輔
+      .side-header__box__icon
+        = link_to '#'  do
+          = icon('fas', 'edit')
+        = link_to '#' do
+          = icon('fas', 'cog')    
+  .groups
+    .groups__box
+      .groups__box__name
+        グループ名
+      .groups__box__message
+        メッセージ名
+    
+    .groups__box
+      .groups__box__name
+        グループ名
+      .groups__box__message
+        メッセージ名

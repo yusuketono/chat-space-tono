@@ -1,0 +1,20 @@
+.groups{
+  height:calc(100vh - 100px);
+  width:300px;
+  padding:20px 20px 0;
+  background-color:#2f3e51;
+  color:#fff;
+  &__box{
+    height:85px;
+    width:260px;
+    &__name{
+      height:20px;
+      font-size:15px;
+      margin-bottom:5px;
+    }
+    &__message{
+      height:40px;
+      font-size:11px;
+    }
+  }
+}

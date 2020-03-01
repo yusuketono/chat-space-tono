@@ -1,0 +1,26 @@
+.wrapper{
+  height:100vh;
+  width:100vw;
+  display: flex;
+}
+
+// 別のファイルに書いたほうがいいかも
+*{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+
+i{
+  color:#fff;
+  text-decoration: none;
+}
+
+.icon--black{
+  color:black;
+}
+
+.hidden{
+  display:none;
+}

@@ -1,3 +1,38 @@
-.main-header
-.messages
-.form
+.chat-main
+  .main-header
+    .main-header__left
+      .main-header__left__group
+        グループ名
+      .main-header__left__member
+        Member:東野裕輔
+    .main-header__right
+      = link_to "#" , class:"main-header__right--edit" do
+        Edit
+
+  .messages
+    .messages__box
+      .messages__box__top
+        %p.messages__box__top--name
+          東野裕輔
+        %p.messages__box__top--date
+          2020/02/23(Sun) 22:52:33
+      %p.messages__box__bottom
+        これはサンプルです
+    
+    .messages__box
+      .messages__box__top
+        %p.messages__box__top--name
+          東野裕輔
+        %p.messages__box__top--date
+          2020/02/23(Sun) 22:52:33
+      %p.messages__box__bottom
+        これはサンプルです
+
+  .form
+    %form.form__new-message
+      .form__new-message__input
+        %input.form__new-message__input__text
+        %label.form__new-message__input__image
+          = icon('fa','image' ,class:'icon--black' )
+          %input.hidden{type: 'file'}
+      %input.submit-btn{type:"submit",value:"send"}
