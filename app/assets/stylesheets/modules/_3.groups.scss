@@ -3,7 +3,7 @@
   width:300px;
   padding:20px 20px 0;
   background-color:#2f3e51;
-  color:#fff;
+  // color:#fff;
   &__box{
     height:85px;
     width:260px;
@@ -11,10 +11,12 @@
       height:20px;
       font-size:15px;
       margin-bottom:5px;
+      color:#fff;
     }
     &__message{
       height:40px;
       font-size:11px;
+      color:#fff;
     }
   }
 }
