@@ -42,7 +42,7 @@ $(function(){
 
  var reloadMessages = function() {
   //カスタムデータ属性を利用し、ブラウザに表示されている最新メッセージのidを取得
-  var last_message_id = $('.messages__box:last').data("message-id");
+  var last_message_id = $('.messages__box:last').data('message_id');
 
   $.ajax({
     //ルーティングで設定した通りのURLを指定
